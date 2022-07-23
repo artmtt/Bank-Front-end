@@ -1,0 +1,53 @@
+.servicios-title {
+    margin: 1.7rem;
+    text-align: center;
+}
+
+.gallery-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0.2rem;
+}
+
+.pre-pay-services-inputs {
+    width: 100%;
+}
+
+.pay-services-inputs {
+    width: 70%;
+    max-width: 500px;
+    margin: 0.2rem;
+}
+
+.pay-services-inputs-row {
+    margin: 0.8rem 0 0 0;
+}
+
+.pay-services-input-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0 0 5px 0;
+}
+
+.pay-btn {
+    background-color: var(--default_red);
+    margin: 10px;
+}
+
+.pay-btn:hover, .pay-btn:focus {
+    background-color: #ff002b;
+}
+
+/* .pre-btn-img {
+    padding: 0.5rem;
+}
+
+.btn-img {
+    display: block;
+    background-color: #fff;
+    border: 0;
+}
+
+.img-design {
+    border-radius: 1rem;
+} */

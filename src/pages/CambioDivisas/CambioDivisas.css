@@ -1,0 +1,33 @@
+.cambio-de-divisas-content {
+    margin-top: 10%;
+}
+
+.bg-container {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    height: calc(40% - 50px);
+    overflow: hidden;
+}
+
+.bg-img {
+    width: 100%;
+    transform: translateY(-10%);
+}
+
+.front-title {
+    text-align: center;
+    margin-top: 100px;
+    /*color: var(--default_red);*/
+    color: #fff;
+    font-weight: 600;
+}
+
+.mid-bg {
+    position: absolute;
+    z-index: -2;
+    transform: translateY(-8%);
+    width: 100%;
+    height: calc(60% - 50px);
+    background-color: #fff;
+}

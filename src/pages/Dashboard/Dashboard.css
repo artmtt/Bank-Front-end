@@ -1,0 +1,29 @@
+.flow-content {
+    margin-top: 2px;
+}
+
+/* .cambio-de-divisas-a {
+    text-decoration: none;
+    font-size: 1.75rem;
+} */
+
+.icon-link-container {
+    display: block;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.09rem;
+    display: inline-block;
+    margin: 20px 10px auto 10px;
+    width: auto;
+}
+
+.icon-link:hover {
+    color: var(--default_red);
+}
+
+.icon-svg {
+    margin: 0 auto 0 calc(40% - 9px);
+}

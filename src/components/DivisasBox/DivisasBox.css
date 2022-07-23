@@ -1,0 +1,87 @@
+.divisas-box {
+    margin: 10px;
+    width: calc(100vw - 20px);
+    max-width: 1000px;
+    background-color: #fdfdfd;
+    display: block;
+}
+
+.post-divisas-box {
+    display: flex;
+    justify-content: center;
+}
+
+.currency-box {
+    height: 100px;
+    margin: 30px 30px 30px 30px;
+    font-size: 1.3rem;
+    background-color: #fcfafa;
+    display: inline-flex;
+}
+
+.currency-select {
+    height: 37px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.currency-box-pre-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.from-currency-box-number {
+    text-align: center;
+    margin: 15px auto auto auto;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.from-currency-box-number:focus {
+    outline: 0;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.to-currency-box-number {
+    text-align: center;
+    margin: 15px auto auto auto;
+}
+
+.divisas-swap {
+    margin: 50px;
+    display: inline-flex;
+}
+
+.divisas-swap-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+
+.to-currency-display {
+    text-align: center;
+}
+
+.current-time {
+    margin-bottom: 7px;
+}
+
+@media screen and (max-width: 770px) {
+    .post-divisas-box {
+        display: block;
+    }
+
+    .currency-box {
+        width: calc(100vw - 100px);
+    }
+
+    .divisas-swap {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+}

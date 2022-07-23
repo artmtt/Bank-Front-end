@@ -1,0 +1,45 @@
+.nav-root {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    height: 60px;
+}
+
+.nav-logo {
+    cursor: pointer;
+    margin: 0;
+    font-size: 1.85rem;
+}
+
+/* .nav-logo-a {
+    text-decoration: none;
+    color: #eb0029;
+}
+
+.nav-logo-a:hover {
+    color: #eb0029;
+} */
+
+.bank-logo-img {
+    height: 38px;
+    width: 250px;
+}
+
+.user-link {
+    text-decoration: none;
+}
+
+.user-welcome {
+    margin-left: 5px;
+    font-size: 0.96rem;
+}
+
+.user-name {
+    color: var(--default_red);
+}
+
+@media screen and (max-width: 414px) {
+    .user-welcome {
+        display: none;
+    }
+}

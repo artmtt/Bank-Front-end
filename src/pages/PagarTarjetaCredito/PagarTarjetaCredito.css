@@ -1,0 +1,45 @@
+.pre-tdc-img {
+    background-color: #fff;
+}
+
+.card-tdc-info {
+    width: 60%;
+    max-width: 570px;
+    flex-direction: row;
+}
+
+.img-tdc {
+    max-width: 450px;
+    max-height: 350px;
+    margin: 1rem;
+    /* padding: 1rem; */
+}
+
+.pay-tdc-inputs {
+    margin: 0.2rem;
+}
+
+.pay-tdc-inputs-row {
+    margin: 0.7rem 0 0 0;
+}
+
+.pay-tdc-input-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0 0 5px 0;
+}
+
+.bold-span {
+    font-weight: 600;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 640px) {
+    .card-tdc-info {
+        width: 95%;
+    }
+}
