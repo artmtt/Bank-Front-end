@@ -1,6 +1,8 @@
 # Banco Front End
 Sitio web enfocado en front end creado con React.js, fue basado en el banco Banorte.
 
+Implementa algunos de los principales flujos bancarios con una interfaz funcional.
+
 # Información de React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
